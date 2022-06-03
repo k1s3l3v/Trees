@@ -1,28 +1,29 @@
-**Binary tree implentation**
-There is a list of commands:
+**Реализация бинарного дерева поиска.**
 
-![image](https://user-images.githubusercontent.com/70627048/171845308-f768de5f-ec36-4196-ab37-bd25df6b06bc.png)
+Вспомогательная функция newNode создает новый узел с ключом.
+Функция add добавляет новый узел в дерево по ключу.
+![image](https://user-images.githubusercontent.com/46604662/171846536-53b5f557-5323-436f-b7ab-e430e7a99ff8.png)
 
-2:
+Вспомогательная функция print выводит заданное поддерево.
+Функция printTree выводит дерево.
+![image](https://user-images.githubusercontent.com/46604662/171846325-c03e9327-b318-437a-88a3-0bae1239cf9c.png)
 
-![image](https://user-images.githubusercontent.com/70627048/171845378-a33b81c8-8810-4213-aec1-bf5a5bdcae61.png)
+Функция printInorder выводит значения при центрированном обходе.
+![image](https://user-images.githubusercontent.com/46604662/171846378-d9fe02d5-5880-403e-a2bf-15fcc2b8b65c.png)
 
-3:
+Функция printPreorder выводит значения при прямом обходе.
+![image](https://user-images.githubusercontent.com/46604662/171846341-31687f31-e2e2-4e93-b29e-7839edaa25fb.png)
 
-![image](https://user-images.githubusercontent.com/70627048/171845403-d8ed7c1e-dc5b-4543-9ebb-e1f052869117.png)
+Функция printPostorder выводит значения при обратном обходе.
+![image](https://user-images.githubusercontent.com/46604662/171846396-81f9614b-2792-4fea-b850-7af80afc78a2.png)
 
-4:
+Вспомогательная функция minNode находит самый левый узел в заданном поддереве.
+Функция delete удаляет узел из дерева по ключу.
+![image](https://user-images.githubusercontent.com/46604662/171846447-8e83f8fb-54bd-4037-a008-4ba0e335e5ce.png)
+![image](https://user-images.githubusercontent.com/46604662/171846471-40638c49-abf8-4197-9c0e-b5b85c0d671e.png)
 
-![image](https://user-images.githubusercontent.com/70627048/171845415-c8f1656b-0542-4e93-92d1-57e235d336ac.png)
+Функция deleteTree удаляет дерево.
+![image](https://user-images.githubusercontent.com/46604662/171846492-c4d92007-d21f-4b18-9083-2d0b40e663e3.png)
 
-5:
-
-![image](https://user-images.githubusercontent.com/70627048/171845434-e472ee65-2774-45e5-8f0b-d97df90baadd.png)
-
-6:
-
-![image](https://user-images.githubusercontent.com/70627048/171845451-30f9a238-7165-4d23-9685-243a1a4f9b07.png)
-
-7:
-
-![image](https://user-images.githubusercontent.com/70627048/171845478-e525a458-e1df-4683-9b40-d7fd47593dca.png)
+При запуске выводится консольное меню:
+![image](https://user-images.githubusercontent.com/46604662/171846245-b165853c-5f52-491f-b203-bc17f51ec29e.png)
